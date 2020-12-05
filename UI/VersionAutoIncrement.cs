@@ -8,5 +8,5 @@ using System.Reflection;
 [assembly: AssemblyInformationalVersionAttribute("1.0.2")]
 [assembly: AssemblyProductAttribute("WeedLoversCZ - statistiky")]
 [assembly: AssemblyTitleAttribute("WeedLoversCZ - statistiky")]
-[assembly: AssemblyFileVersionAttribute("1.0.2.1061")]
-[assembly: AssemblyVersionAttribute("1.0.2.1061")]
+[assembly: AssemblyFileVersionAttribute("1.0.2.1296")]
+[assembly: AssemblyVersionAttribute("1.0.2.1296")]
