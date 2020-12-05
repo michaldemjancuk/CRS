@@ -1,0 +1,25 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".cs" #>
+
+using System;
+using System.Reflection;
+
+[assembly: AssemblyCompanyAttribute("Michal Demjančuk")]
+[assembly: AssemblyConfigurationAttribute("Release")]
+[assembly: AssemblyCopyrightAttribute("Michal Demjančuk")]
+[assembly: AssemblyInformationalVersionAttribute("<#= this.Major #>.<#= this.Minor #>.<#= this.DaysSinceProjectStarted #>")]
+[assembly: AssemblyProductAttribute("WeedLoversCZ - statistiky")]
+[assembly: AssemblyTitleAttribute("WeedLoversCZ - statistiky")]
+[assembly: AssemblyFileVersionAttribute("<#= this.Major #>.<#= this.Minor #>.<#= this.DaysSinceProjectStarted #>.<#= this.MinutesSinceMidnight  #>")]
+[assembly: AssemblyVersionAttribute("<#= this.Major #>.<#= this.Minor #>.<#= this.DaysSinceProjectStarted #>.<#= this.MinutesSinceMidnight  #>")]
+<#+
+
+ int Major = 1;
+ int Minor = 0;
+ 
+ static DateTime ProjectStartedDate = new DateTime(year: 2020, month: 12, day: 3);
+ int DaysSinceProjectStarted = (int)((DateTime.Now - ProjectStartedDate).TotalDays);
+
+ int MinutesSinceMidnight = (int)DateTime.Now.TimeOfDay.TotalMinutes;
+
+#>

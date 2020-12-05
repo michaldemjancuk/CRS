@@ -1,0 +1,13 @@
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\bin\Debug\netcoreapp3.1\AppData\DownloadConfig.settings
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\bin\Debug\netcoreapp3.1\StatsRetriever.deps.json
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\bin\Debug\netcoreapp3.1\StatsRetriever.dll
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\bin\Debug\netcoreapp3.1\StatsRetriever.pdb
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\bin\Debug\netcoreapp3.1\Models.dll
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\bin\Debug\netcoreapp3.1\Models.pdb
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\obj\Debug\netcoreapp3.1\StatsRetriever.csprojAssemblyReference.cache
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\obj\Debug\netcoreapp3.1\StatsRetriever.AssemblyInfoInputs.cache
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\obj\Debug\netcoreapp3.1\StatsRetriever.AssemblyInfo.cs
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\obj\Debug\netcoreapp3.1\StatsRetriever.csproj.CoreCompileInputs.cache
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\obj\Debug\netcoreapp3.1\StatsRetriever.csproj.CopyComplete
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\obj\Debug\netcoreapp3.1\StatsRetriever.dll
+D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\obj\Debug\netcoreapp3.1\StatsRetriever.pdb

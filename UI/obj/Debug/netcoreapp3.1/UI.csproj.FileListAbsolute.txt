@@ -1,0 +1,39 @@
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.Form1.resources
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.csproj.GenerateResource.cache
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.exe
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\AppData\DownloadConfig.settings
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.deps.json
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.runtimeconfig.json
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.runtimeconfig.dev.json
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.pdb
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\Models.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\StatsRetriever.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\Models.pdb
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\StatsRetriever.pdb
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.pdb
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache

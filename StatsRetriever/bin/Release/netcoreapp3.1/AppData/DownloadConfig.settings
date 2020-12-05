@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="StatsRetriever.AppData" GeneratedClassName="DownloadConfig">
+  <Profiles />
+  <Settings>
+    <Setting Name="members_URL" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://api.clashroyale.com/v1/clans/%23{{CLAN_TAG}}/members</Value>
+    </Setting>
+    <Setting Name="_Token" Type="System.String" Scope="User">
+      <Value Profile="(Default)">eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjRiZTBlODZlLTk2YzEtNDUxNS1iNDEwLTEzNmVmMmRkNGMwYyIsImlhdCI6MTYwNzAzNjE4Mywic3ViIjoiZGV2ZWxvcGVyLzQzZDg3MDJiLTFmMDctYzg4OC0wNjM5LWQ1YjE3YjdiN2UzNCIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIxNzguMjU1LjE2OC4xNTYiLCIzNy4xODguMTgzLjE4OCJdLCJ0eXBlIjoiY2xpZW50In1dfQ.M_7KjeAd0C6VPOcy8jqIJGROv6FT4VirZUN-qBpsy7N_ayhPZedT7SRR61sdMR4KZUdVXthOun2UY1naPa-rRQ</Value>
+    </Setting>
+    <Setting Name="currentRiverRace_URL" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://api.clashroyale.com/v1/clans/%23{{CLAN_TAG}}/currentriverrace</Value>
+    </Setting>
+    <Setting Name="CLAN_TAG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">9UU2Y92J</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

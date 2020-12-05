@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+vHHjqAxJKFMUzjfsVZcPXjqsc8bJkEaBXysj7q4Y0C8knafMF7Nef/JHDiqRjItr4OwFyW9huQPic1qqyfCVw==",
+  "success": true,
+  "projectFilePath": "D:\\_MyFiles\\Programing\\ClashOfClans\\DataProcessor\\DataProcessor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\demja\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
