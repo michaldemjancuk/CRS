@@ -1,0 +1,27 @@
+#1.0.3.126
+Sorting menu strip update
+
+Přidáno:
+	+ Možnost vybrat si, koho zobrazit ve výpisu:
+		+ "Všechny"
+		+ "Aktivní v CW"
+		+ "Neaktivní v CW"
+	+ Možnost vybrat si pořadí ve výpisu hráčů:
+		+ "Podle pohárků"
+		+ "Podle úrovně"
+		+ "Podle jména"
+		+ "Podle pořadí v klanu"
+		+ "Podle donations sent"
+		+ "Podle donations got"
+		+ "Podle bodů slávy získané v CW"
+		+ "Podle bodů oprav získané v CW"
+		+ "Podle počtu útoků na lodě"
+	+ Tlačítko na naši facebook stránku
+
+Upraveno:
+	> Přesunuto tlačítko na aktualizaci výpisu
+
+__________________________________________________
+
+#1.0.2.1061
+První veřejný release
