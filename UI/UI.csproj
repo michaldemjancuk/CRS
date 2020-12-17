@@ -16,7 +16,7 @@
     <UseWindowsForms>true</UseWindowsForms>
 
 
-    <AssemblyName>WeedLoversCZ - statistiky</AssemblyName>
+    <AssemblyName>CRS</AssemblyName>
 
 
     <Authors>Michal Demjančuk</Authors>
@@ -33,6 +33,14 @@
 
 
   </PropertyGroup>
+
+
+
+
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\Update_Log.txt" />
+  </ItemGroup>
 
 
 
@@ -66,14 +74,11 @@
 
 
   <ItemGroup>
-    <Folder Include="bin\Debug\netcoreapp3.1\" />
-  </ItemGroup>
-
-
-
-
-
-  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Update="VersionAutoIncrement.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -86,6 +91,20 @@
 
 
   <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+
+
+
+
+  <ItemGroup>
+    <None Update="AutoUpdater.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="VersionAutoIncrement.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>VersionAutoIncrement.cs</LastGenOutput>

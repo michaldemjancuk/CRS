@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KtoLIkTX3bfH9h/4zs3nPRrxb+QQqbfMKyNaNkl345FQOGhsa1hNjPm1iWJi1IVkobNPl5jgLV34h8JFJFST4w==",
+  "success": true,
+  "projectFilePath": "D:\\_MyFiles\\Programing\\ClashOfClans\\AutoUpdater\\AutoUpdater.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\demja\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

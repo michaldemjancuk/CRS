@@ -35,7 +35,7 @@ namespace StatsRetriever.AppData {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjRiZTBlODZlLTk2YzEtNDUxNS1iNDEwLTEzNmVmMmRkNGMwYyIsImlhdCI6MTYwNzAzNjE4Mywic3ViIjoiZGV2ZWxvcGVyLzQzZDg3MDJiLTFmMDctYzg4OC0wNjM5LWQ1YjE3YjdiN2UzNCIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIxNzguMjU1LjE2OC4xNTYiLCIzNy4xODguMTgzLjE4OCJdLCJ0eXBlIjoiY2xpZW50In1dfQ.M_7KjeAd0C6VPOcy8jqIJGROv6FT4VirZUN-qBpsy7N_ayhPZedT7SRR61sdMR4KZUdVXthOun2UY1naPa-rRQ")]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImE5ZTE1ODhiLWYwY2QtNDMwNi1hNTBhLTc4M2E0YzY2OTE1MSIsImlhdCI6MTYwNzI4Nzk2Miwic3ViIjoiZGV2ZWxvcGVyLzQzZDg3MDJiLTFmMDctYzg4OC0wNjM5LWQ1YjE3YjdiN2UzNCIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIzNy4xODguMTYyLjIyOSIsIjE3OC4yNTUuMTY4LjE1NiIsIjM3LjE4OC4xODMuMTg4Il0sInR5cGUiOiJjbGllbnQifV19.kxPDOGlMzdU7q-Nn1iQMZTI9FVoMZ0E0Pv8BXC-FvURSHv0_0mzgJG5b94xtWJC-Yjj9UcGNaoGHfsvmTrIdTQ")]
         public string _Token {
             get {
                 return ((string)(this["_Token"]));
@@ -52,6 +52,16 @@ namespace StatsRetriever.AppData {
         public string currentRiverRace_URL {
             get {
                 return ((string)(this["currentRiverRace_URL"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://api.clashroyale.com/v1/players/%23{{PLAYER_TAG}}")]
+        public string playersInfo_URL {
+            get {
+                return ((string)(this["playersInfo_URL"]));
             }
         }
         

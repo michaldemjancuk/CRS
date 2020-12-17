@@ -8,8 +8,8 @@ using System.Reflection;
 [assembly: AssemblyConfigurationAttribute("Release")]
 [assembly: AssemblyCopyrightAttribute("Michal Demjančuk")]
 [assembly: AssemblyInformationalVersionAttribute("<#= this.Major #>.<#= this.Minor #>.<#= this.DaysSinceProjectStarted #>")]
-[assembly: AssemblyProductAttribute("WeedLoversCZ - statistiky")]
-[assembly: AssemblyTitleAttribute("WeedLoversCZ - statistiky")]
+[assembly: AssemblyProductAttribute("CRS")]
+[assembly: AssemblyTitleAttribute("CRS")]
 [assembly: AssemblyFileVersionAttribute("<#= this.Major #>.<#= this.Minor #>.<#= this.DaysSinceProjectStarted #>.<#= this.MinutesSinceMidnight  #>")]
 [assembly: AssemblyVersionAttribute("<#= this.Major #>.<#= this.Minor #>.<#= this.DaysSinceProjectStarted #>.<#= this.MinutesSinceMidnight  #>")]
 <#+
