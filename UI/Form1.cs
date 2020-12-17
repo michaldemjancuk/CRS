@@ -1,6 +1,8 @@
 ﻿using Models.Download.Clans.CurrentRiverRace;
 using Models.Download.Clans.Members;
+using Models.Download.Players;
 using StatsRetriever.Clans;
+using StatsRetriever.Players;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -47,6 +49,8 @@ namespace UI
 			$"CW Bodů: {participantCW.Fame + Environment.NewLine}" +
 			$"Útoků na loď: {participantCW.BoatAttacks + Environment.NewLine}" +
 			$"Repair body: {participantCW.RepairPoints}";
+
+			playerStatsButton.Visible = true;
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
@@ -99,6 +103,8 @@ namespace UI
 				OrderUsers();
 
 				listBox1.Items.Clear();
+				playerStatsButton.Visible = false;
+				textBox1.Text = string.Empty;
 				foreach (Item member in membersResponse.Items)
 				{
 					listBox1.Items.Add($"[{member.Trophies}] \"{member.Name}\" - {member.Role.ToString()}");
@@ -212,6 +218,23 @@ namespace UI
 						"Nastala chyba"
 					);
 					return;
+			}
+		}
+
+		private void playerStatsButton_Click(object sender, EventArgs e)
+		{
+
+			try
+			{
+				_Players playerData =  new Players().GetData(membersResponse.Items[listBox1.SelectedIndex].Tag);
+				UserStats userStats = new UserStats(playerData);
+				userStats.Show(this);
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(
+					"Během získávání dat nastala neznámá chyba: " + Environment.NewLine + ex.Message,
+					"Nastala chyba");
 			}
 		}
 	}

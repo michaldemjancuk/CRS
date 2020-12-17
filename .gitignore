@@ -1,0 +1,5 @@
+﻿*.json
+/UI/bin/Debug/netcoreapp3.1/StatsRetriever.pdb
+/UI/bin/Debug/netcoreapp3.1/Models.pdb
+/UI/bin/Debug/netcoreapp3.1/CRS v1.0.3.126.zip
+*.pdb

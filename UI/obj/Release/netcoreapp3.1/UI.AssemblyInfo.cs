@@ -8,8 +8,5 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System;
-using System.Reflection;
-
 // Vygenerované třídou WriteCodeFragment nástroje MSBuild
 

@@ -37,6 +37,7 @@
 			this.toolStripComboBox3 = new System.Windows.Forms.ToolStripComboBox();
 			this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.button3 = new System.Windows.Forms.Button();
+			this.playerStatsButton = new System.Windows.Forms.Button();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -129,11 +130,23 @@
 			this.button3.UseVisualStyleBackColor = false;
 			this.button3.Click += new System.EventHandler(this.button3_Click);
 			// 
+			// playerStatsButton
+			// 
+			this.playerStatsButton.Location = new System.Drawing.Point(254, 440);
+			this.playerStatsButton.Name = "playerStatsButton";
+			this.playerStatsButton.Size = new System.Drawing.Size(218, 23);
+			this.playerStatsButton.TabIndex = 6;
+			this.playerStatsButton.Text = "Zobrazit složku hráče s informacemi";
+			this.playerStatsButton.UseVisualStyleBackColor = true;
+			this.playerStatsButton.Visible = false;
+			this.playerStatsButton.Click += new System.EventHandler(this.playerStatsButton_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(484, 481);
+			this.Controls.Add(this.playerStatsButton);
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.menuStrip1);
@@ -163,6 +176,7 @@
 		private System.Windows.Forms.ToolStripComboBox toolStripComboBox3;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
 		private System.Windows.Forms.Button button3;
+		private System.Windows.Forms.Button playerStatsButton;
 	}
 }
 

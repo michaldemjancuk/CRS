@@ -37,3 +37,5 @@ D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyCom
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.dll
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.pdb
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.UserStats.resources
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.Properties.Resources.resources

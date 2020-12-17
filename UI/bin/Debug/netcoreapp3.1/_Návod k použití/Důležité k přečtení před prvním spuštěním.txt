@@ -16,4 +16,4 @@ Vaše veřejná ip adresa
 (https://www.whatismyip.com/what-is-my-public-ip-address/)
 Your Public IPv4 is: xxx.xxx.xxx.xxx
 
-3) Vlož api klíč a clan tag bez hashtagu do nastavení podle obrázků
+3) Vlož api klíč a clan tag bez hashtagu do nastavení podle obrázků (použij libovolný textový editor na otevření DownloadConfig.settings souboru - například poznámkový blok)

@@ -6,3 +6,4 @@ D:\_MyFiles\Programing\ClashOfClans\Models\obj\Debug\netcoreapp3.1\Models.Assemb
 D:\_MyFiles\Programing\ClashOfClans\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
 D:\_MyFiles\Programing\ClashOfClans\Models\obj\Debug\netcoreapp3.1\Models.dll
 D:\_MyFiles\Programing\ClashOfClans\Models\obj\Debug\netcoreapp3.1\Models.pdb
+D:\_MyFiles\Programing\ClashOfClans\Models\obj\Debug\netcoreapp3.1\Models.csprojAssemblyReference.cache

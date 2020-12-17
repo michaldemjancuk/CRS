@@ -1,0 +1,19 @@
+1) Zaregistruj se na odkaze níže pro získání API klíče
+https://developer.clashroyale.com/#/
+
+2) Poté na odkaze níže vytvořte nový API klíč:
+https://developer.clashroyale.com/#/account
+
+Key name:
+Libovolný název podle kterého budete vědět, že se jedná o daný API klíč - poviný
+
+Description:
+Libovolný popisek - poviný
+
+Allowed IP addresses:
+Vaše veřejná ip adresa 
+
+(https://www.whatismyip.com/what-is-my-public-ip-address/)
+Your Public IPv4 is: xxx.xxx.xxx.xxx
+
+3) Vlož api klíč a clan tag bez hashtagu do nastavení podle obrázků
