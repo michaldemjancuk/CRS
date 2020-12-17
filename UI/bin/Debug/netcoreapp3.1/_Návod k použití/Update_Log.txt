@@ -22,7 +22,7 @@ Přidáno:
 
 Upraveno:
   > Celková stabilita aplikace
-  > Název aplikace se načte podle 
+  > Název aplikace se načte podle nastavení
 
 __________________________________________________
 
