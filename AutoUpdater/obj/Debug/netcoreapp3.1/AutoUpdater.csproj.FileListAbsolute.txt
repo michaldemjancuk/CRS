@@ -1,0 +1,15 @@
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\obj\Debug\netcoreapp3.1\AutoUpdater.csprojAssemblyReference.cache
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\obj\Debug\netcoreapp3.1\AutoUpdater.AssemblyInfoInputs.cache
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\obj\Debug\netcoreapp3.1\AutoUpdater.AssemblyInfo.cs
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\obj\Debug\netcoreapp3.1\AutoUpdater.genruntimeconfig.cache
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\obj\Debug\netcoreapp3.1\AutoUpdater.csproj.CoreCompileInputs.cache
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\obj\Debug\netcoreapp3.1\AutoUpdater.csproj.CopyComplete
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\bin\Debug\netcoreapp3.1\CRS Updater.exe
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\bin\Debug\netcoreapp3.1\CRS Updater.deps.json
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\bin\Debug\netcoreapp3.1\CRS Updater.runtimeconfig.json
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\bin\Debug\netcoreapp3.1\CRS Updater.runtimeconfig.dev.json
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\bin\Debug\netcoreapp3.1\CRS Updater.dll
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\bin\Debug\netcoreapp3.1\CRS Updater.pdb
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\obj\Debug\netcoreapp3.1\CRS Updater.dll
+D:\_MyFiles\Programing\ClashOfClans\AutoUpdater\obj\Debug\netcoreapp3.1\CRS Updater.pdb

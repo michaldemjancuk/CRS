@@ -16,7 +16,7 @@
     <UseWindowsForms>true</UseWindowsForms>
 
 
-    <AssemblyName>WeedLoversCZ - statistiky</AssemblyName>
+    <AssemblyName>CRS</AssemblyName>
 
 
     <Authors>Michal Demjančuk</Authors>
@@ -33,6 +33,14 @@
 
 
   </PropertyGroup>
+
+
+
+
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\Update_Log.txt" />
+  </ItemGroup>
 
 
 
@@ -59,14 +67,6 @@
     <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
 
 
-  </ItemGroup>
-
-
-
-
-
-  <ItemGroup>
-    <Folder Include="bin\Debug\netcoreapp3.1\" />
   </ItemGroup>
 
 
@@ -102,6 +102,9 @@
 
 
   <ItemGroup>
+    <None Update="AutoUpdater.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="VersionAutoIncrement.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>VersionAutoIncrement.cs</LastGenOutput>

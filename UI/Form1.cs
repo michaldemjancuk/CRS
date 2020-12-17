@@ -7,8 +7,10 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -55,6 +57,11 @@ namespace UI
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
+			if (!VersionChecker.ActualVersion())
+			{
+				Process.Start("CRS Updater.exe");
+				Close();
+			}
 			try
 			{
 				membersResponse = new Members().GetData();
@@ -62,7 +69,7 @@ namespace UI
 
 				foreach (Item member in membersResponse.Items)
 				{
-					listBox1.Items.Add($"[{member.Trophies}] \"{member.Name}\" - {member.Role.ToString()}");
+					listBox1.Items.Add($"[{member.Trophies}] \"{member.Name}\" - {member.Role}");
 				}
 
 				this.Text = $"{currentRiverRaceResponse.Clan.Name} - Statistics";

@@ -4,13 +4,7 @@ D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.csproj.Generat
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
-D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.exe
 D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\AppData\DownloadConfig.settings
-D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.deps.json
-D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.runtimeconfig.json
-D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.runtimeconfig.dev.json
-D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.dll
-D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.pdb
 D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\RestSharp.dll
@@ -34,8 +28,14 @@ D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\StatsRetriever.dl
 D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\Models.pdb
 D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\StatsRetriever.pdb
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
-D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.dll
-D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\WeedLoversCZ - statistiky.pdb
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.UserStats.resources
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.Properties.Resources.resources
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\CRS.exe
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\CRS.deps.json
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\CRS.runtimeconfig.json
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\CRS.runtimeconfig.dev.json
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\CRS.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\CRS.pdb
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\CRS.dll
+D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\CRS.pdb
