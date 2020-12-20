@@ -1,9 +1,10 @@
 <?php
 
-$images = glob('*.{zip}', GLOB_BRACE);
+$crsFiles = glob('*.{zip}', GLOB_BRACE);
 
-sort($images);
+usort($crsFiles, 'version_compare');
 
-print_r($images[0]);
+
+print_r($crsFiles[count($crsFiles) - 1]);
 
 ?>

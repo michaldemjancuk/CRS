@@ -1,3 +1,12 @@
+#1.0.17.56
+Backend update
+
+Upraveno:
+  > Nyní již nejsou potřeba API klíče na připojení ke statistikám, vše se řeší přes server
+  > Nyní již není potřeba cokoliv nastavovat mimo aplikaci, vše je již v aplikaci
+
+__________________________________________________
+
 #1.0.15.9
 Automatization update
 

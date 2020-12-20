@@ -1,29 +1,20 @@
-﻿using StatsRetriever.AppData;
-using System.Net;
-using System.Collections.Specialized;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Net;
 using RestSharp;
-using Models.Download.Clans.Members;
 using Newtonsoft.Json;
-using System.Linq;
 using Models.Download.Clans.CurrentRiverRace;
 
 namespace StatsRetriever.Clans
 {
 	public class CurrentRiverRace
 	{
-		private DownloadConfig _DownloadConfig;
 
 		public CurrentRiverRace()
 		{
-			_DownloadConfig = DownloadConfig.Default;
 		}
 
-		public Response GetData()
+		public Response GetData(string clanTag)
 		{
-			string rawData = SendRequest();
+			string rawData = SendRequest(clanTag);
 			return ConvertResponse(rawData);
 		}
 
@@ -33,12 +24,10 @@ namespace StatsRetriever.Clans
 		/// <returns>
 		///		- String | Json string response
 		/// </returns>
-		private string SendRequest()
+		private string SendRequest(string clanTag)
 		{
 			var client = new RestClient
-				(_DownloadConfig.currentRiverRace_URL
-					.Replace("{{CLAN_TAG}}", _DownloadConfig.CLAN_TAG)); 
-			client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", _DownloadConfig._Token));
+				("http://michaldemjancuk.cz/CRS/GetCurrentCW.php?ClanTag=" + clanTag);
 			// client.Authenticator = new HttpBasicAuthenticator(username, password);
 			var request = new RestRequest();
 			var response = client.Get(request);

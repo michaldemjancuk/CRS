@@ -1,0 +1,65 @@
+#1.0.15.9
+Automatization update
+
+Přidáno:
+  + Automatická aktualizace aplikace z webu
+  + Automatická kontrola dostupnosti aktualizace při spuštění CRS.exe
+  + Webové rozhraní pro možnost stáhnutí aktuální verze
+
+__________________________________________________
+
+#1.0.14.1056
+Player stats window update
+
+Přidáno:
+  + Načítání statistik hráče z daného klanu obsahující:
+    + Jméno
+    + Tag
+    + Clan
+    + Clan tag
+    + Úroveň
+    + Pohárky
+    + Nejvíce pohárků
+    + Donations v tomto týdnu [Odesláno|Získáno]
+    + Donations darováno celkem
+    + Procento výher [Výhry/Prohry]
+    + Všechny hráčovy karty s následujícími informacemi:
+      + Obrázek
+      + Jméno
+      + Úroveň karty
+      + Počet karet
+  + Odchytávání některých errorů (pro více je nezbytná zpětná vazba)
+
+Upraveno:
+  > Celková stabilita aplikace
+  > Název aplikace se načte podle nastavení
+
+__________________________________________________
+
+#1.0.3.126
+Sorting menu strip update
+
+Přidáno:
+  + Možnost vybrat si, koho zobrazit ve výpisu:
+    + "Všechny"
+    + "Aktivní v CW"
+    + "Neaktivní v CW"
+  + Možnost vybrat si pořadí ve výpisu hráčů:
+    + "Podle pohárků"
+    + "Podle úrovně"
+    + "Podle jména"
+    + "Podle pořadí v klanu"
+    + "Podle donations sent"
+    + "Podle donations got"
+    + "Podle bodů slávy získané v CW"
+    + "Podle bodů oprav získané v CW"
+    + "Podle počtu útoků na lodě"
+  + Tlačítko na naši facebook stránku
+
+Upraveno:
+  > Přesunuto tlačítko na aktualizaci výpisu
+
+__________________________________________________
+
+#1.0.2.1061
+První veřejný release

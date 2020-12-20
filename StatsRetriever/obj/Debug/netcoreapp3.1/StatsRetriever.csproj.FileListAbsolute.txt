@@ -1,4 +1,3 @@
-D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\bin\Debug\netcoreapp3.1\AppData\DownloadConfig.settings
 D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\bin\Debug\netcoreapp3.1\StatsRetriever.deps.json
 D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\bin\Debug\netcoreapp3.1\StatsRetriever.dll
 D:\_MyFiles\Programing\ClashOfClans\StatsRetriever\bin\Debug\netcoreapp3.1\StatsRetriever.pdb

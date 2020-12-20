@@ -76,9 +76,9 @@ namespace AutoUpdater
 		private static string GetActualVersion()
 		{
 #if DEBUG
-			string devPath = @"D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\CRS.exe";
-			if (File.Exists(devPath))
-				return FileVersionInfo.GetVersionInfo(devPath).FileVersion;
+			//string devPath = @"D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\CRS.exe";
+			//if (File.Exists(devPath))
+			//	return FileVersionInfo.GetVersionInfo(devPath).FileVersion;
 #endif
 			if (File.Exists("CRS.exe"))
 				return FileVersionInfo.GetVersionInfo("CRS.exe").FileVersion;

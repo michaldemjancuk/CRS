@@ -1,28 +1,20 @@
-﻿using StatsRetriever.AppData;
-using System.Net;
-using System.Collections.Specialized;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Net;
 using RestSharp;
 using Models.Download.Clans.Members;
 using Newtonsoft.Json;
-using System.Linq;
 
 namespace StatsRetriever.Clans
 {
 	public class Members
 	{
-		private DownloadConfig _DownloadConfig;
 
 		public Members()
 		{
-			_DownloadConfig = DownloadConfig.Default;
 		}
 
-		public _Members GetData()
+		public _Members GetData(string clanTag)
 		{
-			string rawData = SendRequest();
+			string rawData = SendRequest(clanTag);
 			return ConvertResponse(rawData);
 		}
 
@@ -32,13 +24,10 @@ namespace StatsRetriever.Clans
 		/// <returns>
 		///		- String | Json string response
 		/// </returns>
-		private string SendRequest()
+		private string SendRequest(string clanTag)
 		{
 			var client = new RestClient
-				(_DownloadConfig.members_URL
-					.Replace("{{CLAN_TAG}}", _DownloadConfig.CLAN_TAG));
-			client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", _DownloadConfig._Token));
-			// client.Authenticator = new HttpBasicAuthenticator(username, password);
+				("http://michaldemjancuk.cz/CRS/GetClanInfo.php?ClanTag=" + clanTag);
 			var request = new RestRequest();
 			var response = client.Get(request);
 			switch (response.StatusCode)
