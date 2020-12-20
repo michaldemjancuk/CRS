@@ -53,6 +53,7 @@ namespace UI
 			$"Repair body: {participantCW.RepairPoints}";
 
 			playerStatsButton.Visible = true;
+			playerStatsButton.Enabled = true;
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
@@ -62,10 +63,16 @@ namespace UI
 				Process.Start("CRS Updater.exe");
 				Close();
 			}
+			LoadClanData();
+		}
+
+		private void LoadClanData(string clanTag = "")
+		{
 			try
 			{
-				membersResponse = new Members().GetData();
-				currentRiverRaceResponse = new CurrentRiverRace().GetData();
+				clanTag = string.IsNullOrWhiteSpace(clanTag) ? clanTagTextBox.Text : clanTag;
+				membersResponse = new Members().GetData(clanTag);
+				currentRiverRaceResponse = new CurrentRiverRace().GetData(clanTag);
 
 				foreach (Item member in membersResponse.Items)
 				{
@@ -103,8 +110,8 @@ namespace UI
 
 			try
 			{
-				membersResponse = new Members().GetData();
-				currentRiverRaceResponse = new CurrentRiverRace().GetData();
+				membersResponse = new Members().GetData(clanTagTextBox.Text);
+				currentRiverRaceResponse = new CurrentRiverRace().GetData(clanTagTextBox.Text);
 
 				SortUsers();
 				OrderUsers();
@@ -228,12 +235,34 @@ namespace UI
 			}
 		}
 
-		private void playerStatsButton_Click(object sender, EventArgs e)
+		private void findClanButton_Click(object sender, EventArgs e)
 		{
+			listBox1.Items.Clear();
+			LoadClanData(clanTagTextBox.Text);
+			playerStatsButton.Enabled = false;
+		}
 
+		private void findPlayerButton_Click(object sender, EventArgs e)
+		{
 			try
 			{
-				_Players playerData =  new Players().GetData(membersResponse.Items[listBox1.SelectedIndex].Tag);
+				_Players playerData = new Players().GetData(playerTagTextBox.Text);
+				UserStats userStats = new UserStats(playerData);
+				userStats.Show(this);
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(
+					"Během získávání dat nastala neznámá chyba: " + Environment.NewLine + ex.Message,
+					"Nastala chyba");
+			}
+		}
+
+		private void showMorePlayerInfoButton_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				_Players playerData = new Players().GetData(membersResponse.Items[listBox1.SelectedIndex].Tag);
 				UserStats userStats = new UserStats(playerData);
 				userStats.Show(this);
 			}

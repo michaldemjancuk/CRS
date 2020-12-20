@@ -38,6 +38,10 @@
 			this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.button3 = new System.Windows.Forms.Button();
 			this.playerStatsButton = new System.Windows.Forms.Button();
+			this.findPlayerButton = new System.Windows.Forms.Button();
+			this.findClanButton = new System.Windows.Forms.Button();
+			this.clanTagTextBox = new System.Windows.Forms.TextBox();
+			this.playerTagTextBox = new System.Windows.Forms.TextBox();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -57,7 +61,7 @@
 			this.textBox1.Location = new System.Drawing.Point(254, 30);
 			this.textBox1.Multiline = true;
 			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(218, 439);
+			this.textBox1.Size = new System.Drawing.Size(218, 352);
 			this.textBox1.TabIndex = 2;
 			// 
 			// menuStrip1
@@ -132,20 +136,63 @@
 			// 
 			// playerStatsButton
 			// 
-			this.playerStatsButton.Location = new System.Drawing.Point(254, 440);
+			this.playerStatsButton.Location = new System.Drawing.Point(254, 446);
 			this.playerStatsButton.Name = "playerStatsButton";
 			this.playerStatsButton.Size = new System.Drawing.Size(218, 23);
 			this.playerStatsButton.TabIndex = 6;
 			this.playerStatsButton.Text = "Zobrazit složku hráče s informacemi";
 			this.playerStatsButton.UseVisualStyleBackColor = true;
 			this.playerStatsButton.Visible = false;
-			this.playerStatsButton.Click += new System.EventHandler(this.playerStatsButton_Click);
+			this.playerStatsButton.Click += new System.EventHandler(this.showMorePlayerInfoButton_Click);
+			// 
+			// findPlayerButton
+			// 
+			this.findPlayerButton.Location = new System.Drawing.Point(393, 417);
+			this.findPlayerButton.Name = "findPlayerButton";
+			this.findPlayerButton.Size = new System.Drawing.Size(79, 23);
+			this.findPlayerButton.TabIndex = 6;
+			this.findPlayerButton.Text = "Najdi hráče";
+			this.findPlayerButton.UseVisualStyleBackColor = true;
+			this.findPlayerButton.Click += new System.EventHandler(this.findPlayerButton_Click);
+			// 
+			// findClanButton
+			// 
+			this.findClanButton.Location = new System.Drawing.Point(393, 388);
+			this.findClanButton.Name = "findClanButton";
+			this.findClanButton.Size = new System.Drawing.Size(79, 23);
+			this.findClanButton.TabIndex = 6;
+			this.findClanButton.Text = "Najdi clan";
+			this.findClanButton.UseVisualStyleBackColor = true;
+			this.findClanButton.Click += new System.EventHandler(this.findClanButton_Click);
+			// 
+			// clanTagTextBox
+			// 
+			this.clanTagTextBox.Location = new System.Drawing.Point(254, 388);
+			this.clanTagTextBox.MaxLength = 8;
+			this.clanTagTextBox.Name = "clanTagTextBox";
+			this.clanTagTextBox.Size = new System.Drawing.Size(133, 23);
+			this.clanTagTextBox.TabIndex = 7;
+			this.clanTagTextBox.Text = "9UU2Y92J";
+			this.clanTagTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			// 
+			// playerTagTextBox
+			// 
+			this.playerTagTextBox.Location = new System.Drawing.Point(254, 418);
+			this.playerTagTextBox.Name = "playerTagTextBox";
+			this.playerTagTextBox.Size = new System.Drawing.Size(133, 23);
+			this.playerTagTextBox.TabIndex = 7;
+			this.playerTagTextBox.Text = "QVJ2JVQ2";
+			this.playerTagTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(484, 481);
+			this.Controls.Add(this.playerTagTextBox);
+			this.Controls.Add(this.clanTagTextBox);
+			this.Controls.Add(this.findClanButton);
+			this.Controls.Add(this.findPlayerButton);
 			this.Controls.Add(this.playerStatsButton);
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
@@ -177,6 +224,10 @@
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Button playerStatsButton;
+		private System.Windows.Forms.Button findPlayerButton;
+		private System.Windows.Forms.Button findClanButton;
+		private System.Windows.Forms.TextBox clanTagTextBox;
+		private System.Windows.Forms.TextBox playerTagTextBox;
 	}
 }
 

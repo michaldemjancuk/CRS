@@ -4,7 +4,6 @@ D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.csproj.Generat
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
 D:\_MyFiles\Programing\ClashOfClans\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
-D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\AppData\DownloadConfig.settings
 D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\_MyFiles\Programing\ClashOfClans\UI\bin\Debug\netcoreapp3.1\RestSharp.dll

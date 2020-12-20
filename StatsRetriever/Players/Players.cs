@@ -1,22 +1,16 @@
 ﻿using Models.Download.Players;
 using Newtonsoft.Json;
 using RestSharp;
-using StatsRetriever.AppData;
-using System;
-using System.Collections.Generic;
 using System.Net;
-using System.Text;
 
 namespace StatsRetriever.Players
 {
 
 	public class Players
 	{
-		private DownloadConfig _DownloadConfig;
 
 		public Players()
 		{
-			_DownloadConfig = DownloadConfig.Default;
 		}
 
 		public _Players GetData(string playerTag)
@@ -34,9 +28,7 @@ namespace StatsRetriever.Players
 		private string SendRequest(string playerTag)
 		{
 			var client = new RestClient
-				(_DownloadConfig.playersInfo_URL
-					.Replace("{{PLAYER_TAG}}", playerTag.StartsWith('#') ? playerTag.Remove(0,1) : playerTag));
-			client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", _DownloadConfig._Token));
+				("http://michaldemjancuk.cz/CRS/GetPlayerInfo.php?PlayerTag=" + (playerTag.StartsWith('#') ? playerTag.Remove(0, 1) : playerTag));
 			var request = new RestRequest();
 			var response = client.Get(request);
 			switch (response.StatusCode)
